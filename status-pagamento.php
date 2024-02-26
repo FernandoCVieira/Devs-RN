@@ -7,7 +7,7 @@
         SELECT associados.nome AS associado, anuidades.ano AS anuidade, associado_anuidade.pago AS pago
         FROM associados
         JOIN associado_anuidade ON associados.id = associado_anuidade.id_associado
-        JOIN anuidades ON anuidades.id = associado_anuidade.id_anuidade
+        JOIN anuidades ON anuidades.ano = YEAR(associados.data_filiacao)
         ORDER BY associados.nome, anuidades.ano
         SQL;
 
