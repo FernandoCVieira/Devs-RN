@@ -1,0 +1,48 @@
+/* estilo.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.cardbody-color {
+    background-color: #ebf2fa;
+}
+
+.profile-image-pic {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.btn-color {
+    background-color: #0e1c36;
+    color: #fff;
+}
+
+#no-decoration {
+    text-decoration: none;
+}
+
+li.list-group-item.active {
+	background-color: #fff;
+	border-color: #009933;
+    border-left: solid 10px #009933;
+}
+
+li a {
+	color: #212529;
+}
+
+li a:hover {
+	text-decoration: none;
+}
+
+h4 {
+	color: #009933 !important;
+}
